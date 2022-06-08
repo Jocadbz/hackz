@@ -13,7 +13,6 @@ source=("https://github.com/Jocadbz/hackz/releases/download/1.0.0/hackz" "https:
 noextract=(hackz)
 md5sums=('4c225c9c0448a21e03aa6cfd65ebc766'
          '24d2515d25da0a3df290a1e8ccb01d49')
-validpgpkeys=()
 
 package() {
         install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
