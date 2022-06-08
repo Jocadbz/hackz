@@ -123,4 +123,8 @@ def main():
     
         
         
-main()
+try:
+    main()
+except KeyboardInterrupt:
+    print("Haha, your terminal couldn't handle it?")
+    print("Get a better terminal boomer. Or at least use a TTY")
