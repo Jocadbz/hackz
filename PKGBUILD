@@ -2,7 +2,7 @@
 
 pkgname=hackz
 pkgver=1.0.0
-pkgrel=1
+pkgrel=2
 pkgdesc="A script to hack NASA as a cool kid"
 arch=('any')
 url="https://github.com/Jocadbz/hackz"
@@ -18,4 +18,5 @@ package() {
         install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
         install -dm755 $pkgdir/usr/bin
 	cp $pkgname $pkgdir/usr/bin
+	chmod +x $pkgdir/usr/bin/$pkgname
 }
