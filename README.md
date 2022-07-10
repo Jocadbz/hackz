@@ -1,3 +1,6 @@
+# MOVED THIS SHIT TO GITLAB
+https://gitlab.com/Jocadbz/hackz
+
 # HACKZ
 
 THE BEST EVER TOOL TO HACK PEOPLE !!!!!!!!
